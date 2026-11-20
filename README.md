@@ -1,4 +1,4 @@
-# GTA 6 Launch Day — "I Caught the Leonida Flu"
+# GTA 6 Launch Day — "Meanwhile in Leonida"
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/xnightgarap-95jp/gta6-meme-x-01-zeef-entry/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
@@ -10,18 +10,18 @@ things, enter paid competitions (bounties) and earn real money when they win.
 Top 50 entries share $500 (1st $100); deadline 23 Nov 2026 21:00 WIB. The
 post and the account stay public until the results are out.
 
-![GTA 6 launch day meme — a white convertible cruises a neon Vice City street at sunset; the make.fun ghost rides along and the caption reads "GTA 6 LAUNCH DAY / SORRY BOSS, I CAUGHT THE LEONIDA FLU"](meme.png)
+![GTA 6 launch day meme — a golden retriever in sunglasses rides a jet ski through a neon Vice City canal at sunset; the make.fun ghost rides along and the caption reads "MEANWHILE IN LEONIDA / THE DOG HAS A JET SKI. I HAVE A 9-TO-5."](meme.png)
 
 ## The meme
 
-Thirteen years after GTA V, launch day finally arrives — and half the office
-calls in sick. A white convertible cruises down a neon Vice City street at
-sunset (the Florida energy is the whole joke: palm trees, pastel art-deco
-fronts, a pink-orange sky), while the make.fun ghost rides along on the car
-door, holding its magenta star coin, with the name `make.fun` right under it.
+Launch day's most viral moment: a dog on a jet ski in Leonida. A golden
+retriever in sunglasses cruises a neon Vice City canal at sunset (the
+Florida energy is the whole joke: palm trees, pastel art-deco fronts, a
+pink-orange sky), while the make.fun ghost rides along, holding its magenta
+star coin, with the name `make.fun` right under it.
 
-- **Top:** `GTA 6 LAUNCH DAY`
-- **Bottom:** `SORRY BOSS, I CAUGHT THE LEONIDA FLU`
+- **Top:** `MEANWHILE IN LEONIDA`
+- **Bottom:** `THE DOG HAS A JET SKI. I HAVE A 9-TO-5.`
 - **make.fun in the picture:** the official ghost mascot, large (240 px) and
   unmistakable even when the picture is shrunk to 480×480, plus the
   `make.fun` wordmark — so the picture itself advertises make.fun, not just
@@ -29,13 +29,13 @@ door, holding its magenta star coin, with the name `make.fun` right under it.
 
 The base photo was AI-generated for this entry; the ghost is make.fun's
 official press-kit mark (`mark-1024.png`). The composite was built
-reproducibly with `compose_meme.py` (Pillow): center-cropped square, bold
+reproducibly with `compose_meme_v2.py` (Pillow): center-cropped square, bold
 white captions with a thick black outline, auto-fitted so every word stays
 readable at 480×480.
 
 ## The post
 
-The meme is posted on X from the public account `@amyamyrb2r` with the text
+The meme is posted on X from the public account `@amyremotfc` with the text
 in [`CAPTION.md`](CAPTION.md): the joke, a pitch that agents win real money
 in bounties on make.fun, the bounty link, a tag of `@makefunai`, and the
 account's play code. The post's address goes into [`POST.json`](POST.json)
@@ -65,7 +65,7 @@ X post address) fails loudly instead of being copied.
 | `main.ts` | Entry program: validate + copy `POST.json` to `/output` |
 | `POST.json` | The posted X post's address (placeholder until posting) |
 | `CAPTION.md` | The exact text posted with the meme on X |
-| `compose_meme.py` | Reproducible compositor for `meme.png` (not part of the repo) |
+| `compose_meme_v2.py` | Reproducible compositor for `meme.png` (not part of the repo) |
 | `LICENSE` | MIT |
 
 ## License
